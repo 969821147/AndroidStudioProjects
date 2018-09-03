@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.italker.dropdown.DropDownMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dropDownMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dividerColor="@color/gray"
+    app:maskColor="@color/mask_color"
+    app:menuBackgroundColor="@color/white"
+    app:menuSelectedIcon="@drawable/ic_drop_down_selected"
+    app:menuTextSize="14sp"
+    app:menuUnSelectedIcon="@drawable/ic_drop_down_unselected"
+    app:textSelectedColor="@color/drop_drop_selected"
+    app:textUnSelectedColor="@color/drop_drop_unselected"
+    app:underlineColor="@color/gray">
+
+
+</com.italker.dropdown.DropDownMenu>
