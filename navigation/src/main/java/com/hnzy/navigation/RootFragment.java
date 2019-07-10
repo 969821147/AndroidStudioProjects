@@ -33,8 +33,14 @@ public class RootFragment extends Fragment {
         btnToSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                String nickName = "master";
+                RootFragmentDirections.ActionRootFragmentToSettingsFragment action =
+                        RootFragmentDirections.actionRootFragmentToSettingsFragment().setNick(nickName);
+
                 Navigation.findNavController(btnToSettings)
-                        .navigate(R.id.action_rootFragment_to_settingsFragment);
+                        .navigate(action);
+
             }
         });
     }

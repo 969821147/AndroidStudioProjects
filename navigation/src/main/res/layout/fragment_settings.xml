@@ -7,10 +7,17 @@
 
     <Button
         android:id="@+id/btnToRoot"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="回Root界面" />
+
+    <TextView
+        android:id="@+id/tv_nick_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="回Root界面" />
+        android:text="SettingsFragment"
+        android:textSize="24sp" />
 
 </FrameLayout>

@@ -22,5 +22,11 @@
         android:id="@+id/settingsFragment"
         android:name="com.hnzy.navigation.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings" >
+        <argument
+            android:name="nick"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="未设置" />
+    </fragment>
 </navigation>
