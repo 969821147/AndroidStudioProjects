@@ -1,4 +1,4 @@
-package com.hnzy.navigation;
+package com.hnzy.navigation.fragment;
 
 
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.hnzy.navigation.R;
 
 public class SettingsFragment extends Fragment {
     private Button btnToRoot;
