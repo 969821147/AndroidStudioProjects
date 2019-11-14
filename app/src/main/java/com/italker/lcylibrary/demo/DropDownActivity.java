@@ -66,7 +66,6 @@ public class DropDownActivity extends AppCompatActivity implements AdapterView.O
         lvSex.setDividerHeight(0);
         lvSex.setAdapter(sexAdapter);
 
-
         gv = new GridView(this);
         gv.setNumColumns(4);
         gv.setHorizontalSpacing(4);
